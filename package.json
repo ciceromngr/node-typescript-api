@@ -15,7 +15,8 @@
         "build": "tsc",
         "start": "yarn build && node dist/src/index.js",
         "lint": "eslint ./src ./test --ext .ts",
-        "lint:fix": "yarn lint --fix"
+        "lint:fix": "yarn lint --fix",
+        "dev": "tsnd src/index.ts"
     },
     "dependencies": {
         "module-alias": "^2.2.2"
@@ -26,6 +27,7 @@
         "@typescript-eslint/eslint-plugin": "^5.11.0",
         "@typescript-eslint/parser": "^5.11.0",
         "eslint": "^8.8.0",
+        "ts-node-dev": "^1.1.8",
         "typescript": "^4.5.5"
     }
 }
