@@ -1,0 +1,14 @@
+{
+    "name": "node-typescript-api",
+    "version": "1.0.0",
+    "description": "Node Typescript Api",
+    "main": "index.js",
+    "repository": "https://github.com/ciceromngr/node-typescript-api.git",
+    "author": "Cicero Romao <cicerotransformice@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "nodejs",
+        "typescript",
+        "api"
+    ]
+}
